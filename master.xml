@@ -8,8 +8,14 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="MachineShop"
-           name="duralog/MachineShop" />
-
+  <project path="node_modules/MachineShop" name="heavyk/MachineShop" />
+  <project path="node_modules/Laboratory" name="heavyk/Laboratory" />
+  <project path="node_modules/LiveScript" name="gkz/LiveScript" revision="934ef45473dc7db143a8c2fd62c6ebfbedd84eec" />
+  <project path="node_modules/weak" name="duralog/node-weak" revision="3b062926353d3b8ac2347322746cbd20633b8cf5" />
+  <project path="node_modules/node-proxy" name="duralog/node-proxy" revision="8682d750f078b4440e58cf9848a54282bed15807" />
+  <project path="node_modules/imagemagick-native" name="mash/node-imagemagick-native" />
+  <project path="third_party/bootstrap" name="twbs/bootstrap" />
+  <project path="third_party/node" name="joyent/node" revision="99c9930ad626e2796af23def7cac19b65c608d18" />
+  <project path="third_party/ArangoDB" name="triAGENS/ArangoDB" revision="868dfd206b532ce7b90fcc84446720790b9f1ddd" />
 
 </manifest>
