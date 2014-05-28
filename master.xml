@@ -20,37 +20,48 @@ Your sources have been sync'd successfully.
     <repo-hooks in-project="heavyk/Laboratory" enabled-list="post-checkout" />
   </project>
 
-  <project path="node_modules/LiveScript" name="gkz/LiveScript" revision="934ef45473dc7db143a8c2fd62c6ebfbedd84eec">
-    <repo-hooks in-project="heavyk/UniVerse" enabled-list="post-checkout" />
-  </project>
+  <project path="node_modules/deep-is" name="thlorenz/deep-is" />
+  <project path="node_modules/fast-levenshtein" name="hiddentao/fast-levenshtein" />
+  <project path="node_modules/type-check" name="gkz/type-check" />
+  <project path="node_modules/optionator" name="gkz/optionator" />
+  <project path="node_modules/levn" name="gkz/levn" />
+  <project path="node_modules/prelude-ls" name="gkz/prelude-ls" />
+  <project path="node_modules/LiveScript" name="gkz/LiveScript" revision="934ef45473dc7db143a8c2fd62c6ebfbedd84eec" />
 
   <!-- <project path="node_modules/gif" name="mscdex/node-gif" revision="37e04ac08f43faa38b82cdff94aeac8fac25a0cb" /> -->
   <project path="node_modules/growl" name="visionmedia/node-growl" />
+  <project path="node_modules/debug" name="visionmedia/debug" />
+
   <project path="node_modules/rimraf" name="isaacs/rimraf" />
   <project path="node_modules/semver" name="isaacs/node-semver" />
   <project path="node_modules/inherits" name="isaacs/inherits" />
   <project path="node_modules/fstream" name="isaacs/fstream" />
   <project path="node_modules/readable-stream" name="isaacs/readable-stream" />
   <project path="node_modules/ini" name="isaacs/ini" />
-  <project path="node_modules/lazystream" name="jpommerening/node-lazystream" />
-  <project path="node_modules/zip-stream" name="ctalkington/node-zip-stream" />
-  <project path="node_modules/tar-stream" name="mafintosh/tar-stream" />
-  <project path="node_modules/buffer-crc32" name="brianloveswords/buffer-crc32" />
-  <project path="node_modules/crc32-stream" name="ctalkington/node-crc32-stream" />
-  <project path="node_modules/deflate-crc32-stream" name="ctalkington/node-deflate-crc32-stream" />
   <project path="node_modules/core-util-is" name="isaacs/core-util-is" />
   <project path="node_modules/graceful-fs" name="isaacs/node-graceful-fs" />
   <project path="node_modules/glob" name="isaacs/node-glob" />
   <project path="node_modules/minimatch" name="isaacs/minimatch" />
-  <project path="node_modules/file-utils" name="SBoudrias/file-utils" />
   <project path="node_modules/lru-cache" name="isaacs/node-lru-cache" />
   <project path="node_modules/sigmund" name="isaacs/sigmund" />
+
+  <project path="node_modules/shelljs" name="arturadib/shelljs" />
+  <project path="node_modules/printf" name="wdavidw/node-printf" />
+  <project path="node_modules/eventemitter3" name="3rd-Eden/EventEmitter3" />
+  <project path="node_modules/lazystream" name="jpommerening/node-lazystream" />
+  <project path="node_modules/zip-stream" name="ctalkington/node-zip-stream" />
+  <project path="node_modules/tar-stream" name="mafintosh/tar-stream" />
+  <project path="node_modules/buffer-crc32" name="brianloveswords/buffer-crc32" />
+  <project path="node_modules/file-utils" name="SBoudrias/file-utils" />
+  <project path="node_modules/crc32-stream" name="ctalkington/node-crc32-stream" />
+  <project path="node_modules/deflate-crc32-stream" name="ctalkington/node-deflate-crc32-stream" />
   <project path="node_modules/isbinaryfile" name="gjtorikian/isBinaryFile" />
   <project path="node_modules/findup-sync" name="cowboy/node-findup-sync" />
   <project path="node_modules/iconv-lite" name="ashtuchkin/iconv-lite" />
   <project path="node_modules/harmony-reflect" name="tvcutsem/harmony-reflect" />
   <project path="node_modules/mkdirp" name="substack/node-mkdirp" />
   <project path="node_modules/dnode" name="substack/dnode" />
+  <project path="node_modules/wordwrap" name="substack/node-wordwrap" />
   <project path="node_modules/Archivista" name="heavyk/Archivista" />
   <project path="node_modules/walkdir" name="soldair/node-walkdir" />
   <project path="node_modules/archiver" name="ctalkington/node-archiver" />
@@ -60,6 +71,7 @@ Your sources have been sync'd successfully.
   <project path="node_modules/node-proxy" name="duralog/node-proxy" revision="8682d750f078b4440e58cf9848a54282bed15807" />
   <project path="node_modules/imagemagick-native" name="mash/node-imagemagick-native" />
 
+  <project path="node_modules/lodash" name="lodash/lodash" />
   <project path="node_modules/less" name="less/less.js" />
   <project path="node_modules/mousetrap" name="ccampbell/mousetrap" />
   <project path="node_modules/term.js" name="chjj/term.js" />
