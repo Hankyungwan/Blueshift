@@ -32,6 +32,9 @@ Your sources have been sync'd successfully.
   <project path="node_modules/growl" name="visionmedia/node-growl" />
   <project path="node_modules/debug" name="visionmedia/debug" />
 
+  <project path="node_modules/ms" name="guille/ms.js" />
+  <project path="node_modules/path-to-regexp" name="component/path-to-regexp" />
+
   <project path="node_modules/rimraf" name="isaacs/rimraf" />
   <project path="node_modules/semver" name="isaacs/node-semver" />
   <project path="node_modules/inherits" name="isaacs/inherits" />
