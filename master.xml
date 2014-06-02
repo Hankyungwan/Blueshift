@@ -55,7 +55,7 @@ Your sources have been sync'd successfully.
   <project path="node_modules/iconv-lite" name="ashtuchkin/iconv-lite" />
   <project path="node_modules/harmony-reflect" name="tvcutsem/harmony-reflect" />
   <project path="node_modules/mkdirp" name="substack/node-mkdirp" />
-  <project path="node_modules/dnode" name="substack/dnode" />
+  <project path="node_modules/dnode" name="substack/dnode" revision="refs/tags/1.2.0" />
   <project path="node_modules/wordwrap" name="substack/node-wordwrap" />
   <project path="node_modules/Archivista" name="heavyk/Archivista" />
   <project path="node_modules/walkdir" name="soldair/node-walkdir" />
