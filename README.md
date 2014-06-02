@@ -1,6 +1,8 @@
 Blueshift
 =========
 
+## (WIP) don't expect it to work completely yet... still putting a bunch of code into the repos
+
 Blueshift begun as a collaboration between @heavyk and @duralog to take us to the future. a Blueshift means that a planetary body is moving toward you and so its emitted light appears more "blue". I don't really understand how the frequency of a light wave can be modified by its emitter's velocity.
 
 
@@ -22,7 +24,7 @@ you will need `repo` installed. on osx, `brew install repo` ... for windows, we 
 ```
 mkdir Blueshift
 cd Blueshift
-repo init -u https://github.com/duralog/Blueshift.git -m release \
+repo init -u https://github.com/duralog/Blueshift.git \
   --repo-url https://github.com/duralog/repo.git \
   --no-repo-verify --depth=1
 repo sync
@@ -42,10 +44,19 @@ first, you will need to unshallow all checked out `git` repos before you can con
 
 this could take a while, so while you wait, we think you might enjoy reading about [what's happening under the hood](git/unshallow)
 ```
-repo forall -c git fetch --unshallow
+# repo forall -c git fetch --unshallow
+repo init -u https://github.com/duralog/Blueshift.git \
+  --repo-url https://github.com/duralog/repo.git \
+  --no-repo-verify
 repo sync
 ```
 
+## 4. Stay up to date
+these commands are sufficient to upgrade to the latest version
+```
+repo selfupdate --no-repo-verify
+repo sync
+```
 
 # Contribute
 in order to be able to contribute, you will need to upgrade to the development version (see above).

@@ -75,8 +75,8 @@ Your sources have been sync'd successfully.
   <project path="third_party/bootstrap" name="twbs/bootstrap">
     <repo-hooks in-project="third_party/bootstrap" enabled-list="post-checkout" />
   </project>
-  <project path="third_party/node" name="joyent/node" revision="99c9930ad626e2796af23def7cac19b65c608d18" />
-  <project path="third_party/ArangoDB" name="triAGENS/ArangoDB" revision="868dfd206b532ce7b90fcc84446720790b9f1ddd" />
+  <project path="third_party/node" name="joyent/node" revision="refs/tags/v0.11.13" />
+  <project path="third_party/ArangoDB" name="triAGENS/ArangoDB" revision="refs/tags/v2.0.8" />
   <!-- project path="third_party/ArangoDB/js/apps/system/PublicDB" name="heavyk/PublicDB"/ -->
 <!--
   add gcc for llvm bootstrapping
