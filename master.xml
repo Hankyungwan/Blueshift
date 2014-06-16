@@ -41,7 +41,9 @@ Your sources have been sync'd successfully.
   <project path="node_modules/sigmund" name="isaacs/sigmund" />
 
   <project path="node_modules/shelljs" name="arturadib/shelljs" />
+  <project path="node_modules/mime" name="broofa/node-mime" />
   <project path="node_modules/printf" name="wdavidw/node-printf" />
+  <project path="node_modules/es6-collections" name="WebReflection/es6-collections" />
   <project path="node_modules/eventemitter3" name="3rd-Eden/EventEmitter3" />
   <project path="node_modules/lazystream" name="jpommerening/node-lazystream" />
   <project path="node_modules/zip-stream" name="ctalkington/node-zip-stream" />
@@ -72,12 +74,9 @@ Your sources have been sync'd successfully.
   <project path="node_modules/term.js" name="chjj/term.js" />
   <project path="wiki" name="duralog/Blueshift.wiki" />
 
-  <project path="third_party/bootstrap" name="twbs/bootstrap">
-    <repo-hooks in-project="third_party/bootstrap" enabled-list="post-checkout" />
-  </project>
-  <project path="third_party/node" name="joyent/node" revision="refs/tags/v0.11.13" />
-  <project path="third_party/ArangoDB" name="triAGENS/ArangoDB" revision="refs/tags/v2.0.8" />
-  <!-- project path="third_party/ArangoDB/js/apps/system/PublicDB" name="heavyk/PublicDB"/ -->
+  <project path="third_party/bootstrap" name="twbs/bootstrap" />
+  <project path="third_party/jquery" name="jquery/jquery" />
+  <project path="third_party/holder" name="imsky/holder" />
 <!--
   add gcc for llvm bootstrapping
   add ldc for compiling
