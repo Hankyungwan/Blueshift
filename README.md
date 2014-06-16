@@ -54,8 +54,9 @@ repo sync
 ## 4. Stay up to date
 these commands are sufficient to upgrade to the latest version
 ```
-repo selfupdate --no-repo-verify
+git -C .repo/repo pull
 repo sync
+npm install
 ```
 
 # Contribute

@@ -68,6 +68,7 @@ Your sources have been sync'd successfully.
   <project path="node_modules/node-proxy" name="samshull/node-proxy" />
   <project path="node_modules/imagemagick-native" name="mash/node-imagemagick-native" />
 
+  <project path="node_modules/deep-diff" name="flitbit/diff" />
   <project path="node_modules/lodash" name="lodash/lodash" revision="refs/tags/2.4.1" />
   <project path="node_modules/less" name="less/less.js" revision="refs/tags/v1.7.0" />
   <project path="node_modules/mousetrap" name="ccampbell/mousetrap" />
